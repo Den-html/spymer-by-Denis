@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo "--------------------"
-echo "|     Кто ты ?     |"
+echo "| Какой эмулятор ? |"
 echo "|------------------|"
 echo "| 1. Termux        |"
 echo "| 2. Другой Unix   |"
@@ -50,7 +50,7 @@ else
 			chmod 777 /usr/bin/spymer
 			spymer
 		else
-			echo "Некорректный ввод"
+			echo "Неправильный ввод"
 		fi
 	fi
 fi
